@@ -25,7 +25,7 @@ String password = request.getParameter("pw");
 // JDBC 참조 변수 준비
 Connection con = null;
 PreparedStatement pstmt = null;
-String url = "jdbc:mariadb://172.25.1.92:3306,172.25.1.31:3306/test";
+String url = "jdbc:mysql://172.25.1.92:3306,172.25.1.31:3306/test";
 //String url = "jdbc:oracle:thin:@localhost:1521:xe";
 String user = "repl", pw = "password";
 //String driver = "org.mariadb.cj.jdbc.Driver";
