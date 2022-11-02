@@ -32,7 +32,7 @@ String user = "repl", pw = "password";
 
 // 1) JDBC 드라이버 로딩
 //Class.forName("oracle.jdbc.OracleDriver");
-Class.forName("com.mysql.cj.jdbc.Driver");
+Class.forName("org.mariadb.jdbc.Driver");
 
 
 // 2) DB연결(DB url, DB id, DB pw)
