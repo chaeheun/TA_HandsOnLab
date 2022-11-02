@@ -35,7 +35,7 @@ td {
                 </tr>
                 <%
                         // JDBC 참조 변수 준비
-                        String url = "jdbc:mysql://172.25.1.92:3306, 172.25.1.31:3306/test";
+                        String url = "jdbc:mariadb:sequential://172.25.1.92:3306, 172.25.1.31:3306/test";
                         String user = "repl", pw = "password";
 
                         Connection con = null;
